@@ -8,7 +8,7 @@ var destination = Path.Combine(Environment.CurrentDirectory,
                           "brasil.txt");
 
 // CreateFile("argentina");
-// CreateDirectoriesGlobe();
+CreateDirectoriesGlobe();
 // MoveOrCopyFile("copy", origin, destination);
 
 static void MoveOrCopyFile(string action, string origin, string destination)
@@ -52,7 +52,9 @@ static void CreateFile(string nameFile)
 
 static void CreateDirectoriesGlobe()
 {
+  // var path = @"C:\temp\globe";
   var path = Path.Combine(Environment.CurrentDirectory, "globe");
+
   if (!Directory.Exists(path))
   {
     var dirGlobe = Directory.CreateDirectory(path);
