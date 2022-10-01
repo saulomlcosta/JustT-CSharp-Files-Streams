@@ -1,0 +1,15 @@
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\bin\Debug\net6.0\File_And_FileInfo.exe
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\bin\Debug\net6.0\File_And_FileInfo.deps.json
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\bin\Debug\net6.0\File_And_FileInfo.runtimeconfig.json
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\bin\Debug\net6.0\File_And_FileInfo.dll
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\bin\Debug\net6.0\File_And_FileInfo.pdb
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.csproj.AssemblyReference.cache
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.GeneratedMSBuildEditorConfig.editorconfig
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.AssemblyInfoInputs.cache
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.AssemblyInfo.cs
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.csproj.CoreCompileInputs.cache
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.dll
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\obj\Debug\net6.0\refint\File_And_FileInfo.dll
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.pdb
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\obj\Debug\net6.0\File_And_FileInfo.genruntimeconfig.cache
+C:\www\DiO\C#\Trabalho com Arquivos e Streams em C#\File_And_FileInfo\obj\Debug\net6.0\ref\File_And_FileInfo.dll
