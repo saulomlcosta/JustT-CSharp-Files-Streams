@@ -1,13 +1,13 @@
 ﻿using static System.Console;
 
 var origin = Path.Combine(Environment.CurrentDirectory, "argentina.txt");
-var destination = Path.Combine("C:\\temp",
+var destination = Path.Combine(Environment.CurrentDirectory,
                           "globe",
                           "South America",
                           "Brasil",
                           "brasil.txt");
 
-CreateFile("brasil");
+// CreateFile("argentina");
 // CreateDirectoriesGlobe();
 // MoveOrCopyFile("move", origin, destination);
 // DeleteFile(destination);
