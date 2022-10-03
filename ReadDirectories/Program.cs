@@ -2,9 +2,24 @@
 
 var path = @"C:\temp\globe";
 
-ReadDirectories(path);
+// ReadDirectories(path);
+ReadFiles(path);
 WriteLine("Press enter to continue...");
 Console.ReadLine();
+
+static void ReadFiles(string path)
+{
+  var files = Directory.GetFiles(path, "*", SearchOption.AllDirectories);
+  foreach (var file in files)
+  {
+    var fileInfo = new FileInfo(file);
+    WriteLine($"[Name]: {fileInfo.Name}");
+    WriteLine($"[Name]: {fileInfo.Length}");
+    WriteLine($"[Name]: {fileInfo.LastAccessTime}");
+    WriteLine($"[Name]: {fileInfo.DirectoryName}");
+    WriteLine("--------------------------");
+  }
+}
 
 static void ReadDirectories(string path)
 {

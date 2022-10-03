@@ -1,15 +1,33 @@
 ﻿using static System.Console;
 
 var origin = Path.Combine(Environment.CurrentDirectory, "argentina.txt");
-var destination = Path.Combine(Environment.CurrentDirectory,
+var destination = Path.Combine("C:\\temp",
                           "globe",
                           "South America",
                           "Brasil",
                           "brasil.txt");
 
-// CreateFile("argentina");
-CreateDirectoriesGlobe();
-// MoveOrCopyFile("copy", origin, destination);
+CreateFile("brasil");
+// CreateDirectoriesGlobe();
+// MoveOrCopyFile("move", origin, destination);
+// DeleteFile(destination);
+
+static void DeleteFile(string path)
+{
+  if (File.Exists(path))
+  {
+    File.Delete(path);
+    WriteLine("File deleted successfully");
+    ReadLine();
+    return;
+  }
+  else
+  {
+    WriteLine("The file doesn't exists on path " + path);
+    ReadLine();
+    return;
+  }
+}
 
 static void MoveOrCopyFile(string action, string origin, string destination)
 {
